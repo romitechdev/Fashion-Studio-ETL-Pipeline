@@ -1,0 +1,67 @@
+================================================================================
+                    FASHION STUDIO ETL PIPELINE - SUBMISSION
+================================================================================
+
+1. MENJALANKAN ETL PIPELINE
+----------------------------
+   cd submission-pemda
+   pip install -r requirements.txt
+   python main.py
+
+   Output:
+   - products.csv (file CSV dengan data produk bersih)
+
+
+2. MENJALANKAN UNIT TEST
+-------------------------
+   cd submission-pemda
+   pytest tests/ -v
+
+   Untuk melihat coverage:
+   pytest tests/ -v --cov=utils --cov-report=term-missing
+
+
+3. COVERAGE REPORT
+------------------
+   Target coverage: >= 80%
+   
+   Jalankan untuk melihat detail:
+   pytest tests/ -v --cov=utils --cov-report=html
+   
+   Buka htmlcov/index.html untuk laporan lengkap.
+
+
+4. URL GOOGLE SHEETS
+--------------------
+   -
+
+
+5. STRUKTUR PROYEK
+------------------
+   submission-pemda/
+   ├── tests/
+   │   ├── __init__.py
+   │   ├── test_extract.py
+   │   ├── test_transform.py
+   │   └── test_load.py
+   ├── utils/
+   │   ├── __init__.py
+   │   ├── extract.py
+   │   ├── transform.py
+   │   └── load.py
+   ├── main.py
+   ├── requirements.txt
+   ├── submission.txt
+   └── products.csv
+
+
+6. FITUR YANG DIIMPLEMENTASI
+----------------------------
+   ✓ Extract: Scraping 50 halaman dengan retry logic
+   ✓ Transform: Pembersihan data (duplikat, null, Unknown Product)
+   ✓ Transform: Konversi harga USD ke IDR (×16000)
+   ✓ Transform: Penambahan kolom timestamp
+   ✓ Load: Export ke CSV
+   ✓ Unit tests dengan coverage >= 80%
+
+================================================================================
