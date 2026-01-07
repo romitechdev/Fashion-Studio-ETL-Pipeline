@@ -118,8 +118,8 @@ TOTAL                     196     38    81%
 ## 👨‍💻 Author
 
 **Your Name**
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_USERNAME)
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- LinkedIn: [romi-webdev](https://linkedin.com/in/romi-webdev)
+- GitHub: [romitechdev](https://github.com/romitechdev)
 
 ## 📄 License
 
