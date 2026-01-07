@@ -66,8 +66,8 @@ submission-pemda/
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/fashion-studio-etl.git
-cd fashion-studio-etl
+git clone https://github.com/romitechdev/Fashion-Studio-ETL-Pipeline.git
+cd Fashion-Studio-ETL-Pipeline
 
 # Install dependencies
 pip install -r requirements.txt
